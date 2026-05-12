@@ -15,7 +15,7 @@ The platform tracks user interactions on a website, stores analytics events, and
 Add deployed dashboard URL here:
 
 ```bash
-https://your-dashboard.vercel.app
+https://user-analytics-dashboard-delta.vercel.app/
 ```
 
 ## Backend API
