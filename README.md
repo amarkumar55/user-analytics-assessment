@@ -12,7 +12,7 @@ The platform tracks user interactions on a website, stores analytics events, and
 
 ## Dashboard
 
-Add deployed dashboard URL here:
+   Deployed dashboard URL here:
 
 ```bash
 https://user-analytics-dashboard-delta.vercel.app/
@@ -20,7 +20,7 @@ https://user-analytics-dashboard-delta.vercel.app/
 
 ## Backend API
 
-Add deployed backend URL here:
+ Deployed backend URL here:
 
 ```bash
 https://user-analytics-api-zzqo.onrender.com/
@@ -28,7 +28,7 @@ https://user-analytics-api-zzqo.onrender.com/
 
 ## Demo Ecommerce Website
 
-Add deployed demo website URL here:
+Deployed demo website URL here:
 
 ```bash
 https://spontaneous-cheesecake-1ab7c2.netlify.app/
@@ -59,7 +59,7 @@ Analytics Dashboard (Next.js)
 Repository:
 
 ```bash
-user-analytics-api
+user-analytics-api (https://github.com/amarkumar55/user-analytics-api)
 ```
 
 Tech Stack:
@@ -87,7 +87,7 @@ Features:
 Repository:
 
 ```bash
-user-analytics-dashboard
+user-analytics-dashboard (https://github.com/amarkumar55/user-analytics-dashboard)
 ```
 
 Tech Stack:
@@ -113,7 +113,7 @@ Features:
 Repository:
 
 ```bash
-user-analytics-demo-site
+user-analytics-demo-site (https://github.com/amarkumar55/user-analytics-demo-site)
 ```
 
 Tech Stack:
@@ -172,7 +172,7 @@ The heatmap view visualizes:
 
 # API Endpoints
 
-## POST /api/events
+## POST /api/v1/events
 
 Stores tracking events.
 
@@ -182,28 +182,32 @@ Example payload:
 {
   "sessionId": "abc123",
   "type": "click",
-  "url": "/products",
+  "url": "https://spontaneous-cheesecake-1ab7c2.netlify.app/",
   "timestamp": "2026-05-12T10:00:00Z",
   "x": 120,
-  "y": 340
+  "y": 340,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "screenWidth": 1440,
+  "screenHeight": 900
 }
+
 ```
 
 ---
 
-## GET /api/sessions
+## GET /api/v1/sessions
 
 Returns all sessions with event counts.
 
 ---
 
-## GET /api/sessions/:sessionId
+## GET /api/v1/sessions/:sessionId/events
 
 Returns ordered events for a session.
 
 ---
 
-## GET /api/heatmap?url=<page-url>
+## GET /api/v1/heatmap?url=<page-url>
 
 Returns click coordinate data for heatmap visualization.
 
@@ -245,13 +249,13 @@ Compound indexes improve:
 
 ```bash
 # Backend
-https://github.com/yourusername/user-analytics-api
+https://github.com/amarkumar55/user-analytics-api
 
 # Dashboard
-https://github.com/yourusername/user-analytics-dashboard
+https://github.com/amarkumar55/user-analytics-dashboard
 
 # Demo Site
-https://github.com/yourusername/user-analytics-demo-site
+https://github.com/amarkumar55/user-analytics-demo-site
 ```
 
 ---
@@ -288,7 +292,7 @@ npm install
 Create `.env.local`
 
 ```env
-NEXT_PUBLIC_API_URL=http://localhost:5000/api
+NEXT_PUBLIC_API_URL=http://localhost:5000/api/v1/
 ```
 
 Run:
@@ -403,10 +407,12 @@ Suggested screenshots:
 
 # Author
 
-Your Name
+Amar Kumar
 
-GitHub:
+Senior Software Engineer
 
-```bash
-https://github.com/yourusername
-```
+Linkedin: https://www.linkedin.com/in/amarkumar241429017/
+
+GitHub: https://github.com/amarkumar55
+
+
