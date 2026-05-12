@@ -23,7 +23,7 @@ https://your-dashboard.vercel.app
 Add deployed backend URL here:
 
 ```bash
-https://your-api.onrender.com
+https://user-analytics-api-zzqo.onrender.com/
 ```
 
 ## Demo Ecommerce Website
