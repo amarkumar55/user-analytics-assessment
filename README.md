@@ -383,9 +383,18 @@ Add screenshots here after deployment.
 Suggested screenshots:
 
 * Sessions dashboard
+  <img width="1908" height="1020" alt="Screenshot from 2026-05-12 17-20-49" src="https://github.com/user-attachments/assets/b1dc36e0-e97e-4e73-a179-98f65489937d" />
+  <img width="1908" height="1020" alt="Screenshot from 2026-05-12 17-20-56" src="https://github.com/user-attachments/assets/96264c24-3974-48fc-8ea1-7c9793642efc" />
+
 * User journey timeline
+  <img width="1908" height="1020" alt="Screenshot from 2026-05-12 17-21-02" src="https://github.com/user-attachments/assets/45443593-8b19-4575-9254-cb03875340c8" />
+
 * Heatmap view
+  <img width="1908" height="1020" alt="Screenshot from 2026-05-12 17-21-17" src="https://github.com/user-attachments/assets/4d9f9467-5fd7-4a80-b36a-78834eb8187c" />
+
 * Demo ecommerce site
+  <img width="921" height="777" alt="Screenshot from 2026-05-12 17-20-33" src="https://github.com/user-attachments/assets/24d85948-abe2-4eb5-97cb-6c6c84eafe28" />
+
 
 ---
 
