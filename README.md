@@ -31,7 +31,7 @@ https://user-analytics-api-zzqo.onrender.com/
 Add deployed demo website URL here:
 
 ```bash
-https://your-demo-site.netlify.app
+https://spontaneous-cheesecake-1ab7c2.netlify.app/
 ```
 
 ---
